@@ -1,0 +1,11 @@
+<!ELEMENT cars (car*)>
+<!ELEMENT car (comment, price, manufacturer)>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT manufacturer (#PCDATA)>
+<!ATTLIST car name CDATA #REQUIRED>
+<!ATTLIST car uri CDATA #REQUIRED>
+<!ATTLIST car type CDATA #REQUIRED>
+<!ATTLIST car rating CDATA #REQUIRED>
+<!ATTLIST car xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST car xsi:noNamespaceSchemaLocation CDATA #REQUIRED>

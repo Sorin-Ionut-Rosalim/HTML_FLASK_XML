@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="cars.xsl"?>
+<!DOCTYPE cars SYSTEM "cars.dtd">
+<cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cars.xsd">
+    <car name="Dacia Spring" uri="https://www.dacia.ro/gama-dacia/spring.html" type="Electric" rating="5">
+        <comment> It's electric. </comment>
+        <price> 21.800 euro</price>
+        <manufacturer>Dacia</manufacturer>
+    </car>
+    <car name="Dacia Duster" uri="https://www.dacia.ro/gama-dacia/duster-ph2.html" type="Gas" rating="9">
+        <comment> It 4x4. </comment>
+        <price> 15.550 euro</price>
+        <manufacturer>Dacia</manufacturer>
+    </car>
+    <car name="Dacia Jogger" uri="https://www.dacia.ro/gama-dacia/jogger.html" type="Gas" rating="8">
+        <comment> It is a van. </comment>
+        <price> 15.890 euro</price>
+        <manufacturer>Dacia</manufacturer>
+    </car>
+    <car name="Dacia Logan" uri="https://www.dacia.ro/gama-dacia/logan.html" type="Gas" rating="10">
+        <comment> It is the best car ever. </comment>
+        <price> 13.600 euro</price>
+        <manufacturer>Dacia</manufacturer>
+    </car>
+    <car name="Dacia Sandero" uri="https://www.dacia.ro/gama-dacia/sandero.html" type="Gas" rating="9.5">
+        <comment> It is the second best car ever. </comment>
+        <price> 13.650 euro</price>
+        <manufacturer>Dacia</manufacturer>
+    </car>
+    <car name="Dacia Sandero Stpway" uri="https://www.dacia.ro/gama-dacia/sandero-stepway.html" type="Gas" rating="6">
+        <comment> It is a car. </comment>
+        <price> 14.050 euro</price>
+        <manufacturer>Dacia</manufacturer>
+    </car>
+    <car name="Ford Fiesta" uri="https://www.ford.ro/autoturisme/noua-fiesta" type="Gas" rating="7">
+        <comment> It is a Ford. </comment>
+        <price> 16.800 euro</price>
+        <manufacturer>Ford</manufacturer>
+    </car>
+    <car name="Ford Escort" uri="https://www.ford.ro/autoturisme/ecosport?vehicleNavCategory=all%20cars" type="Gas" rating="7">
+        <comment> It is a Ford. </comment>
+        <price> 22.000 euro</price>
+        <manufacturer>Ford</manufacturer>
+    </car>
+    <car name="Ford Puma" uri="https://www.ford.ro/autoturisme/noul-puma?vehicleNavCategory=all%20cars" type="Gas" rating="7">
+        <comment> It is a Ford. </comment>
+        <price> 23.800 euro</price>
+        <manufacturer>Ford</manufacturer>
+    </car>
+    <car name="Ford Focus" uri="https://www.ford.ro/autoturisme/noul-focus" type="Gas" rating="7">
+        <comment> It is a Ford. </comment>
+        <price> 23.600 euro</price>
+        <manufacturer>Ford</manufacturer>
+    </car>
+</cars>

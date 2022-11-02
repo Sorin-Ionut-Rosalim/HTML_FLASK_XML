@@ -1,0 +1,18 @@
+<title>Cars specs</title>
+
+<ul>
+    {% for car in content %}
+    <li>
+        <a target="_blank" href="{{ car.attrib['uri'] }}"">
+            <strong>{{ car.attrib['name'] }}</strong>
+        </a>
+        <ul>
+            <li>Type: {{ car.attrib['type'] }}</li>
+            <li>Rating: {{ car.attrib['rating'] }}</li>
+            <li>Price: {{ car[1].text}}</li>
+            <li>Manufacturer: {{ car[2].text}}</li>
+        </ul>
+        <i>&emsp;&emsp;{{car[0].text}}</i>
+    </li>
+    {% endfor %}
+</ul>
